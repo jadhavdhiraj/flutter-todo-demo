@@ -12,7 +12,6 @@ class TaskPageView extends GetView<TaskPageController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomInset: false,
       appBar: AppBar(
         title: const Text('TaskPageView'),
         centerTitle: true,
